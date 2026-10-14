@@ -1,0 +1,18 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Allow a safe example configuration to be committed
+!.env.example
+
+# Test and tooling caches
+.pytest_cache/
+.coverage
