@@ -1,6 +1,8 @@
 
 # DeepDoc AI
 
+![DeepDoc AI demo](demo/demo.png)
+
 **DeepDoc AI** is a semantic search platform built with a FastAPI backend and a React (JavaScript/Vite) frontend. It enables users to upload internal documents (text, PDF, or DOCX), organize them by department, and perform semantic search powered by Elasticsearch.
 
 
@@ -205,12 +207,10 @@ deepdoc-ai/
 
 The frontend of DeepDoc AI is built with React, Vite, and JavaScript, offering a responsive interface for uploading documents, performing semantic search, and managing document results.
 
-<img width="467" height="294" alt="image" src="https://github.com/user-attachments/assets/9b0fb35b-e4f9-4fe7-8f9d-6e287235a796" />
-
-
 ## Future Improvements
 
 * Document versioning
 * User authentication and access control
 * Multi-language embedding support
 * Usage analytics dashboard
+* RAG pipeline
